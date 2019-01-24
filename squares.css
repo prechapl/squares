@@ -1,21 +1,43 @@
-.squareContainer {
-  display: flex;
+
+body {
+  font-family: sans-serif;
+  margin: 50px;
 }
 
-.buttonContainer {
+h1 {
+  margin: 50px;
+  text-align: center;
+ 
+}
+.box {
   display: flex;
+  justify-content: space-around;
+  margin: 50px
+}
+
+.square {
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+  height: 100px;
+  margin: 1px;
+  border: solid 3px black;
+  /* text-align: center; */
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
   flex-direction: column;
 }
 
 button {
-  height: 50px;
-  cursor: pointer;
-}
-
-.square {
+  height: 20px;
   width: 100px;
-  height: 100px;
-  border: solid 3px black;
+  margin: px;
+  cursor: pointer;
 }
 
 #red {
@@ -29,3 +51,5 @@ button {
 #blue {
   background-color: blue;
 }
+
+
